@@ -1,4 +1,5 @@
 def countInversions(arr, n):
+    ##Brute Force
     count = 0
     for i in range(n):
         for j in range(i+1, n):
@@ -36,3 +37,4 @@ if __name__ == "__main__":
     # Array with All Equal Elements
     arr7 = [3, 3, 3, 3]
     print(f"Test 7: {countInversions(arr7, len(arr7))}")  # Expected Output: 0
+
